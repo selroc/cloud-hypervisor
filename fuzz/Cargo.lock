@@ -337,9 +337,9 @@ checksum = "e2abad23fbc42b3700f2f279844dc832adb2b2eb069b2df918f455c4e18cc646"
 
 [[package]]
 name = "libc"
-version = "0.2.102"
+version = "0.2.103"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a2a5ac8f984bfcf3a823267e5fde638acc3325f6496633a5da6bb6eb2171e103"
+checksum = "dd8f7255a17a627354f321ef0055d63b898c6fb27eff628af4d1b66b7331edf6"
 
 [[package]]
 name = "libfuzzer-sys"
@@ -354,9 +354,9 @@ dependencies = [
 
 [[package]]
 name = "linux-loader"
-version = "0.3.0"
+version = "0.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c819cc8275b0f2c1ed9feec455ca288b45d82932384a6a5f7a86812ee3427459"
+checksum = "8a5e77493808403a6bd56a301a64ea6b9342e36ea845044bf0dfdf56fe52fa08"
 dependencies = [
  "vm-memory",
 ]
@@ -887,6 +887,7 @@ dependencies = [
  "versionize",
  "versionize_derive",
  "vfio-ioctls",
+ "vfio_user",
  "vhdx",
  "virtio-devices",
  "vm-allocator",
