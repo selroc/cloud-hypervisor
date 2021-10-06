@@ -484,9 +484,9 @@ checksum = "e2abad23fbc42b3700f2f279844dc832adb2b2eb069b2df918f455c4e18cc646"
 
 [[package]]
 name = "libc"
-version = "0.2.102"
+version = "0.2.103"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a2a5ac8f984bfcf3a823267e5fde638acc3325f6496633a5da6bb6eb2171e103"
+checksum = "dd8f7255a17a627354f321ef0055d63b898c6fb27eff628af4d1b66b7331edf6"
 
 [[package]]
 name = "libssh2-sys"
@@ -569,7 +569,7 @@ dependencies = [
 [[package]]
 name = "mshv-bindings"
 version = "0.1.0"
-source = "git+https://github.com/rust-vmm/mshv?branch=main#0b5835475c8bb2114b727a87285275290eaa6cd9"
+source = "git+https://github.com/rust-vmm/mshv?branch=main#74e46d4eac8af64c030a3f5d4e5658111daa6fd6"
 dependencies = [
  "libc",
  "serde",
@@ -581,7 +581,7 @@ dependencies = [
 [[package]]
 name = "mshv-ioctls"
 version = "0.1.0"
-source = "git+https://github.com/rust-vmm/mshv?branch=main#0b5835475c8bb2114b727a87285275290eaa6cd9"
+source = "git+https://github.com/rust-vmm/mshv?branch=main#74e46d4eac8af64c030a3f5d4e5658111daa6fd6"
 dependencies = [
  "libc",
  "mshv-bindings",
@@ -691,9 +691,9 @@ dependencies = [
 
 [[package]]
 name = "pkg-config"
-version = "0.3.19"
+version = "0.3.20"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3831453b3449ceb48b6d9c7ad7c96d5ea673e9b470a1dc578c2ce6521230884c"
+checksum = "7c9b1041b4387893b91ee6746cddfc28516aff326a3519fb2adf820932c5e6cb"
 
 [[package]]
 name = "pnet"
@@ -805,9 +805,9 @@ dependencies = [
 
 [[package]]
 name = "quote"
-version = "1.0.9"
+version = "1.0.10"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c3d0b9745dc2debf507c8422de05d7226cc1f0644216dfdfead988f9b1ab32a7"
+checksum = "38bc8cc6a5f2e3655e0899c1b848643b2562f853f114bfec7be120678e3ace05"
 dependencies = [
  "proc-macro2",
 ]
@@ -903,8 +903,9 @@ checksum = "d29ab0c6d3fc0ee92fe66e2d99f700eab17a8d57d1c1d3b748380fb20baa78cd"
 
 [[package]]
 name = "seccompiler"
-version = "0.1.0"
-source = "git+https://github.com/rust-vmm/seccompiler#da5788d52f1ae8886d8ed4624199b7e9fa64ac04"
+version = "0.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e01d1292a1131b22ccea49f30bd106f1238b5ddeec1a98d39268dcc31d540e68"
 dependencies = [
  "libc",
 ]
@@ -973,9 +974,9 @@ dependencies = [
 
 [[package]]
 name = "smallvec"
-version = "1.6.1"
+version = "1.7.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "fe0f37c9e8f3c5a4a66ad655a93c74daac4ad00c441533bf5c6e7990bb42604e"
+checksum = "1ecab6c735a6bb4139c0caafd0cc3635748bbb3acf4550e8138122099251f309"
 
 [[package]]
 name = "ssh2"
@@ -1003,9 +1004,9 @@ checksum = "8ea5119cdb4c55b55d432abb513a0429384878c15dde60cc77b1c99de1a95a6a"
 
 [[package]]
 name = "syn"
-version = "1.0.77"
+version = "1.0.80"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5239bc68e0fef57495900cfea4e8dc75596d9a319d7e16b1e0a440d24e6fe0a0"
+checksum = "d010a1623fbd906d51d650a9916aaefc05ffa0e4053ff7fe601167f3e715d194"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -1327,7 +1328,7 @@ dependencies = [
 [[package]]
 name = "vm-fdt"
 version = "0.1.0"
-source = "git+https://github.com/rust-vmm/vm-fdt?branch=main#ddb3fad52461a8664c584db40ed1bc910123cd9e"
+source = "git+https://github.com/rust-vmm/vm-fdt?branch=main#57796cde6a56a3c55bae4856a7694bbb6f13263a"
 
 [[package]]
 name = "vm-memory"
