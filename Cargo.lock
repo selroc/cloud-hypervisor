@@ -35,18 +35,18 @@ dependencies = [
 
 [[package]]
 name = "ansi_term"
-version = "0.11.0"
+version = "0.12.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ee49baf6cb617b853aa8d93bf420db2383fab46d314482ca2803b40d5fde979b"
+checksum = "d52a9bb7ec0cf484c551830a7ce27bd20d67eac647e1befb56b0be4ee39a55d2"
 dependencies = [
  "winapi",
 ]
 
 [[package]]
 name = "anyhow"
-version = "1.0.48"
+version = "1.0.51"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "62e1f47f7dc0422027a4e370dd4548d4d66b26782e513e98dca1e689e058a80e"
+checksum = "8b26702f315f53b6071259e15dd9d64528213b44d61de1ec926eca7715d62203"
 
 [[package]]
 name = "api_client"
@@ -170,9 +170,9 @@ checksum = "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd"
 
 [[package]]
 name = "clap"
-version = "2.33.3"
+version = "2.34.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "37e58ac78573c40708d45522f0d80fa2f01cc4f9b4e2bf749807255454312002"
+checksum = "a0610544180c38b88101fecf2dd634b174a62eef6946f84dfc6a7127512b381c"
 dependencies = [
  "ansi_term",
  "atty",
@@ -186,7 +186,7 @@ dependencies = [
 
 [[package]]
 name = "cloud-hypervisor"
-version = "19.0.0"
+version = "20.0.0"
 dependencies = [
  "anyhow",
  "api_client",
@@ -372,9 +372,9 @@ checksum = "9b919933a397b79c37e33b77bb2aa3dc8eb6e165ad809e58ff75bc7db2e34574"
 
 [[package]]
 name = "hermit-abi"
-version = "0.1.19"
+version = "0.1.20"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "62b467343b94ba476dcb2500d242dadbb39557df889310ac77c5d99100aaac33"
+checksum = "c7a30908dbce072eca83216eab939d2290080e00ca71611b96a09e5cdce5f3fa"
 dependencies = [
  "libc",
 ]
@@ -447,9 +447,9 @@ dependencies = [
 
 [[package]]
 name = "itoa"
-version = "0.4.8"
+version = "1.0.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b71991ff56294aa922b450139ee08b3bfc70982c6b2c7562771375cf73542dd4"
+checksum = "1aab8fc367588b89dcee83ab0fd66b72b50b72fa1904d7095045ace2b0c81c35"
 
 [[package]]
 name = "kvm-bindings"
@@ -464,8 +464,7 @@ dependencies = [
 [[package]]
 name = "kvm-ioctls"
 version = "0.11.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "97422ba48d7ffb66fd4d18130f72ab66f9bbbf791fb7a87b9291cdcfec437593"
+source = "git+https://github.com/rust-vmm/kvm-ioctls?branch=main#d22ef1f51852dfb055da38004e1a4fed81246f81"
 dependencies = [
  "kvm-bindings",
  "libc",
@@ -480,9 +479,9 @@ checksum = "e2abad23fbc42b3700f2f279844dc832adb2b2eb069b2df918f455c4e18cc646"
 
 [[package]]
 name = "libc"
-version = "0.2.108"
+version = "0.2.112"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8521a1b57e76b1ec69af7599e75e38e7b7fad6610f037db8c79b127201b5d119"
+checksum = "1b03d17f364a3a042d5e5d46b053bbbf82c92c9430c592dd4c064dc6ee997125"
 
 [[package]]
 name = "libssh2-sys"
@@ -625,9 +624,9 @@ dependencies = [
 
 [[package]]
 name = "openssl-sys"
-version = "0.9.71"
+version = "0.9.72"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7df13d165e607909b363a4757a6f133f8a818a74e9d3a98d09c6128e15fa4c73"
+checksum = "7e46109c383602735fa0a2e48dd2b7c892b048e1bf69e5c3b1d804b7d9c203cb"
 dependencies = [
  "autocfg",
  "cc",
@@ -689,9 +688,9 @@ dependencies = [
 
 [[package]]
 name = "pkg-config"
-version = "0.3.22"
+version = "0.3.24"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "12295df4f294471248581bc09bef3c38a5e46f1e36d6a37353621a0c6c357e1f"
+checksum = "58893f751c9b0412871a09abd62ecd2a00298c6c83befa223ef98c52aef40cbe"
 
 [[package]]
 name = "pnet"
@@ -783,9 +782,9 @@ dependencies = [
 
 [[package]]
 name = "proc-macro2"
-version = "1.0.32"
+version = "1.0.34"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ba508cc11742c0dc5c1659771673afbab7a0efab23aa17e854cbab0837ed0b43"
+checksum = "2f84e92c0f7c9d58328b85a78557813e4bd845130db68d7184635344399423b1"
 dependencies = [
  "unicode-xid",
 ]
@@ -883,9 +882,9 @@ dependencies = [
 
 [[package]]
 name = "ryu"
-version = "1.0.5"
+version = "1.0.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "71d301d4193d031abdd79ff7e3dd721168a9572ef3fe51a1517aba235bd8f86e"
+checksum = "73b4b750c782965c211b42f022f59af1fbceabdd026623714f104152f1ec149f"
 
 [[package]]
 name = "scopeguard"
@@ -919,15 +918,15 @@ checksum = "388a1df253eca08550bef6c72392cfe7c30914bf41df5269b68cbd6ff8f570a3"
 
 [[package]]
 name = "serde"
-version = "1.0.130"
+version = "1.0.132"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f12d06de37cf59146fbdecab66aa99f9fe4f78722e3607577a5375d66bd0c913"
+checksum = "8b9875c23cf305cd1fd7eb77234cbb705f21ea6a72c637a5c6db5fe4b8e7f008"
 
 [[package]]
 name = "serde_derive"
-version = "1.0.130"
+version = "1.0.132"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d7bc1a1ab1961464eae040d96713baa5a724a8152c1222492465b54322ec508b"
+checksum = "ecc0db5cb2556c0e558887d9bbdcf6ac4471e83ff66cf696e5419024d1606276"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -936,9 +935,9 @@ dependencies = [
 
 [[package]]
 name = "serde_json"
-version = "1.0.72"
+version = "1.0.73"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d0ffa0837f2dfa6fb90868c2b5468cad482e175f7dad97e7421951e663f2b527"
+checksum = "bcbd0344bc6533bc7ec56df11d42fb70f1b912351c0825ccb7211b59d8af7cf5"
 dependencies = [
  "itoa",
  "ryu",
@@ -947,9 +946,9 @@ dependencies = [
 
 [[package]]
 name = "signal-hook"
-version = "0.3.10"
+version = "0.3.12"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9c98891d737e271a2954825ef19e46bd16bdb98e2746f2eec4f7a4ef7946efd1"
+checksum = "c35dfd12afb7828318348b8c408383cf5071a086c1d4ab1c0f9840ec92dbb922"
 dependencies = [
  "libc",
  "signal-hook-registry",
@@ -1140,9 +1139,9 @@ dependencies = [
 
 [[package]]
 name = "vfio-bindings"
-version = "0.2.0"
+version = "0.3.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4a21f546f2bda37f5a8cfb138c87f95b8e34d2d78d6a7a92ba3785f4e08604a7"
+checksum = "43449b404c488f70507dca193debd4bea361fe8089869b947adc19720e464bce"
 dependencies = [
  "vmm-sys-util",
 ]
@@ -1150,14 +1149,16 @@ dependencies = [
 [[package]]
 name = "vfio-ioctls"
 version = "0.1.0"
-source = "git+https://github.com/rust-vmm/vfio-ioctls?branch=main#bcf2e6486d44e342d49784813394bd5429d42a35"
+source = "git+https://github.com/rust-vmm/vfio-ioctls?branch=main#19e5b83ddfad430109ce3e8d51f4a24796099127"
 dependencies = [
  "byteorder",
  "kvm-bindings",
  "kvm-ioctls",
+ "libc",
  "log",
  "mshv-bindings",
  "mshv-ioctls",
+ "thiserror",
  "vfio-bindings",
  "vm-memory",
  "vmm-sys-util",
