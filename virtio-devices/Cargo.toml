@@ -9,23 +9,23 @@ default = []
 mshv = []
 
 [dependencies]
-anyhow = "1.0.52"
+anyhow = "1.0.53"
 arc-swap = "1.5.0"
 block_util = { path = "../block_util" }
 byteorder = "1.4.3"
 epoll = "4.3.1"
 event_monitor = { path = "../event_monitor" }
 io-uring = "0.5.2"
-libc = "0.2.112"
+libc = "0.2.113"
 log = "0.4.14"
 net_gen = { path = "../net_gen" }
 net_util = { path = "../net_util" }
 pci = { path = "../pci" }
 rate_limiter = { path = "../rate_limiter" }
 seccompiler = "0.2.0"
-serde = "1.0.133"
-serde_derive = "1.0.133"
-serde_json = "1.0.74"
+serde = "1.0.134"
+serde_derive = "1.0.134"
+serde_json = "1.0.75"
 versionize = "0.1.6"
 versionize_derive = "0.1.4"
 vhost = { version = "0.3.0", features = ["vhost-user-master", "vhost-user-slave", "vhost-kern"] }
