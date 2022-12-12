@@ -6,7 +6,7 @@ version = 3
 name = "acpi_tables"
 version = "0.1.0"
 dependencies = [
- "vm-memory",
+ "vm-memory 0.7.0",
 ]
 
 [[package]]
@@ -55,7 +55,7 @@ dependencies = [
  "versionize",
  "versionize_derive",
  "vm-fdt",
- "vm-memory",
+ "vm-memory 0.7.0",
  "vm-migration",
  "vmm-sys-util",
 ]
@@ -106,7 +106,7 @@ dependencies = [
  "vhdx",
  "virtio-bindings",
  "virtio-queue",
- "vm-memory",
+ "vm-memory 0.7.0",
  "vm-virtio",
  "vmm-sys-util",
 ]
@@ -167,7 +167,7 @@ dependencies = [
  "signal-hook",
  "test_infra",
  "thiserror",
- "vm-memory",
+ "vm-memory 0.7.0",
  "vmm",
  "vmm-sys-util",
  "wait-timeout",
@@ -203,7 +203,7 @@ dependencies = [
  "versionize",
  "versionize_derive",
  "vm-device",
- "vm-memory",
+ "vm-memory 0.7.0",
  "vm-migration",
  "vmm-sys-util",
 ]
@@ -347,7 +347,7 @@ dependencies = [
  "serde_derive",
  "serde_json",
  "thiserror",
- "vm-memory",
+ "vm-memory 0.7.0",
  "vmm-sys-util",
 ]
 
@@ -465,11 +465,11 @@ dependencies = [
 
 [[package]]
 name = "linux-loader"
-version = "0.4.0"
+version = "0.8.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8a5e77493808403a6bd56a301a64ea6b9342e36ea845044bf0dfdf56fe52fa08"
+checksum = "b9259ddbfbb52cc918f6bbc60390004ddd0228cf1d85f402009ff2b3d95de83f"
 dependencies = [
- "vm-memory",
+ "vm-memory 0.10.0",
 ]
 
 [[package]]
@@ -558,7 +558,7 @@ dependencies = [
  "versionize_derive",
  "virtio-bindings",
  "virtio-queue",
- "vm-memory",
+ "vm-memory 0.7.0",
  "vm-virtio",
  "vmm-sys-util",
 ]
@@ -658,7 +658,7 @@ dependencies = [
  "vfio_user",
  "vm-allocator",
  "vm-device",
- "vm-memory",
+ "vm-memory 0.7.0",
  "vm-migration",
  "vmm-sys-util",
 ]
@@ -1124,7 +1124,7 @@ dependencies = [
  "mshv-ioctls",
  "thiserror",
  "vfio-bindings",
- "vm-memory",
+ "vm-memory 0.7.0",
  "vmm-sys-util",
 ]
 
@@ -1140,7 +1140,7 @@ dependencies = [
  "serde_json",
  "thiserror",
  "vfio-bindings",
- "vm-memory",
+ "vm-memory 0.7.0",
  "vmm-sys-util",
 ]
 
@@ -1166,7 +1166,7 @@ checksum = "3b56bf8f178fc500fe14505fca8b00dec76fc38f2304f461c8d9d7547982311d"
 dependencies = [
  "bitflags",
  "libc",
- "vm-memory",
+ "vm-memory 0.7.0",
  "vmm-sys-util",
 ]
 
@@ -1181,7 +1181,7 @@ dependencies = [
  "vhost",
  "virtio-bindings",
  "virtio-queue",
- "vm-memory",
+ "vm-memory 0.7.0",
  "vmm-sys-util",
 ]
 
@@ -1200,7 +1200,7 @@ dependencies = [
  "vhost",
  "vhost-user-backend",
  "virtio-bindings",
- "vm-memory",
+ "vm-memory 0.7.0",
  "vmm-sys-util",
 ]
 
@@ -1218,7 +1218,7 @@ dependencies = [
  "vhost",
  "vhost-user-backend",
  "virtio-bindings",
- "vm-memory",
+ "vm-memory 0.7.0",
  "vmm-sys-util",
 ]
 
@@ -1256,7 +1256,7 @@ dependencies = [
  "virtio-queue",
  "vm-allocator",
  "vm-device",
- "vm-memory",
+ "vm-memory 0.7.0",
  "vm-migration",
  "vm-virtio",
  "vmm-sys-util",
@@ -1269,7 +1269,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "3785325315e6496fa88673842ee6cd198b9658e88e8b0e1ad48a5dc818b221dc"
 dependencies = [
  "log",
- "vm-memory",
+ "vm-memory 0.7.0",
  "vmm-sys-util",
 ]
 
@@ -1279,7 +1279,7 @@ version = "0.1.0"
 dependencies = [
  "arch",
  "libc",
- "vm-memory",
+ "vm-memory 0.7.0",
 ]
 
 [[package]]
@@ -1292,7 +1292,7 @@ dependencies = [
  "serde_json",
  "thiserror",
  "vfio-ioctls",
- "vm-memory",
+ "vm-memory 0.7.0",
  "vmm-sys-util",
 ]
 
@@ -1313,6 +1313,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "vm-memory"
+version = "0.10.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "688a70366615b45575a424d9c665561c1b5ab2224d494f706b6a6812911a827c"
+dependencies = [
+ "libc",
+ "winapi",
+]
+
+[[package]]
 name = "vm-migration"
 version = "0.1.0"
 dependencies = [
@@ -1323,7 +1333,7 @@ dependencies = [
  "thiserror",
  "versionize",
  "versionize_derive",
- "vm-memory",
+ "vm-memory 0.7.0",
 ]
 
 [[package]]
@@ -1333,7 +1343,7 @@ dependencies = [
  "log",
  "virtio-bindings",
  "virtio-queue",
- "vm-memory",
+ "vm-memory 0.7.0",
 ]
 
 [[package]]
@@ -1378,7 +1388,7 @@ dependencies = [
  "virtio-queue",
  "vm-allocator",
  "vm-device",
- "vm-memory",
+ "vm-memory 0.7.0",
  "vm-migration",
  "vm-virtio",
  "vmm-sys-util",
